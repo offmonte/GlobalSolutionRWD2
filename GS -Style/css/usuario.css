@@ -1,0 +1,223 @@
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+header{
+    box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.5)
+}
+
+.gridding {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h4{
+    color: rgb(177, 177, 177);
+    font-weight: lighter;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.telaUsuario{
+    width: 1280px;
+    box-shadow: 10px 0 15px -5px rgba(0, 0, 0, 0.5), -10px 0 15px -5px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    background-color: #d1d1d1;
+    color: #454545;
+}
+
+/* DADOS DO USUÁRIO */
+.dadosUsuario {
+    width: 360px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 40px;
+    background-color: whitesmoke;
+    border: 3px solid sandybrown;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 0 5px -5px rgba(0, 0, 0, 0.3), -10px 0 5px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+.dadosUsuario h2{
+    font-size: 30px;
+}
+
+.dadosUsuario h3{
+    margin-top: 20px;
+}
+
+.fotoPerfil {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.opcoesUsuario {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.opcoesUsuario {
+    width: 240px;
+    height: 60px;
+    border-radius: 40px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(161, 107, 59);
+    border: 0;
+    box-shadow: 10px 0 25px -5px rgba(0, 0, 0, 0.5), -10px 0 25px -5px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* DADOS DOS DEPENDENTES */
+
+.dadosSeguros {
+    width: 100%;
+    height: 640px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: inset 10px 0 25px -5px rgba(0, 0, 0, 0.5), inset -10px 0 25px -5px rgba(0, 0, 0, 0.5);
+    border: 3px solid sandybrown;
+    font-size: 24px;
+    overflow: auto;
+}
+.dadosSeguros h1{
+    color: #454545;
+    justify-content: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+
+/* Deixando a barra transparente */
+.dadosSeguros::-webkit-scrollbar {width: 0px;}/* Chrome, Safari */
+.dadosSeguros::-ms-scrollbar {width: 0px;}/* Internet Explorer */
+/* Deixando a barra transparente */
+
+.segurosAtivos {
+    width: 100%;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    box-shadow: 10px 0 25px -5px rgba(0, 0, 0, 0.5), -10px 0 25px -5px rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+    padding: 9%
+}
+
+.part2{
+    margin-right: 20px;
+}
+
+.segurosAtivos h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.segurosAtivos p{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.botaoAddDepend {
+    width: 240px;
+    height: 60px;
+    border-radius: 40px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(161, 107, 59);
+    border: 0;
+    box-shadow: 10px 0 25px -5px rgba(0, 0, 0, 0.5), -10px 0 25px -5px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Reponsivdade para tablet*/
+@media screen and (max-width: 1280px){
+    .telaUsuario{
+        width: 100%;
+    }
+    .dadosUsuario {
+        width: 300px;
+        margin-left: 0px;
+    }
+    
+}
+
+
+/*Reponsivdade para tablet*/
+@media screen and (max-width: 900px) {
+   .gridding {
+        grid-template-columns: 1fr;
+    }
+   .dadosUsuario{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+   .gridMenor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: baseline;
+    }
+   .dadosUsuario h3{
+        margin-top: 10px;
+    }
+    
+    .botaoAddBike {
+        width: 340px;
+        height: 80px;
+        border-radius: 40px;
+        font-weight: bold;
+        padding: 20px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        background-color: #0f75ac;
+        border: 0;
+        box-shadow: 10px 0 25px -5px rgba(0, 0, 0, 0.5), -10px 0 25px -5px rgba(0, 0, 0, 0.5);
+        font-size: 20px;
+        color: white;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*Reponsivdade para celular*/
+@media screen and (max-width: 500px) {
+    .telaUsuario{
+        padding: 10px;
+        background-color: #d1d1d1;
+        color: #454545;
+    }
+    .gridMenor{
+        grid-template-columns: 1fr;
+    }
+    .dadosUsuario{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+}

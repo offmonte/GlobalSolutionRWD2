@@ -1,0 +1,116 @@
+/* CONTAINER INDEX */
+body{
+    background-color: rgb(214, 214, 214);
+}
+.corpo {
+    width: 1024px;
+    padding-bottom: 50px;
+}
+
+/* Section 1 */
+.anuncio {
+    width: 95%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
+    background-color: white;
+    border: 3px solid sandybrown;
+    border-radius: 30px;
+    box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.5), -5px -5px 12px -5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.imageMed1 {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+.imageMed2 {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+
+
+
+/*Section 2*/
+.crieSuaConta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #454545;
+    margin: 50px;
+}
+.contato {
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid sandybrown;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.5), -5px -5px 12px -5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.contrate {
+    width: 280px;
+    height: 60px;
+    background-color: rgb(161, 107, 59);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.5), -5px -5px 12px -5px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+/*Reponsivdade para tablet*/
+@media screen and (max-width: 1024px){
+    .corpo {
+        width: 100%;
+    }
+
+    .anuncio {
+        width: 640px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5), -10px -10px 10px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    
+    .contrate {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    
+}
+
+
+/*Reponsivdade para celular*/
+@media screen and (max-width: 600px) {
+    .anuncio {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0)
+    }
+    
+
+}

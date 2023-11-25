@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./images/VitalidadeLogo.png" height="150px" width="150" alt="Vitalidade Logo" class="logo">
+        </a>
+        <nav class="navegar">
+            <ul class="listaHeader">
+                <li class="itemHeader"><a href="./quemSomos.html">Sobre nós</a></li>
+                <li class="itemHeader"><a href="./suporte.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="telaCad">
+        <div class="efetuarCad">
+            <h1>Crie sua conta</h1>
+            <div class="gridding">
+                <div class="part1">
+                    
+                    <input type="email" id="email" name="email" placeholder=" Endereço de email" required>
+                    <input type="senha" id="senha" name="senha"  placeholder=" senha" required>
+                   
+                </div>
+
+                <div class="part2">
+                    <input type="confirmarEmail" id="confirmarEmail" name="confirmarEmail" placeholder=" Confirme o email" required>
+                    <input type="confirmarSenha" id="confirmarSenha" name="confirmarSenha"  placeholder=" Confirme a senha" required>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="telaCad">
+        <div class="efetuarCad">
+            <h2>Informações básicas</h2>
+            <div class="gridding">
+                <div class="part1">
+                    <input type="nome" id="nome" name="nome" placeholder=" Nome" required>
+                    <input type="celular" id="celular" name="celular" placeholder=" Celular" required>
+                    <input type="CPF" id="CPF" name="CPF" placeholder=" CPF" required>
+                </div>
+
+                <div class="part2">
+                    <input type="sobrenome" id="sobrenome" name="sobrenome" placeholder=" Sobrenome" required>
+                    <input type="nascimento" id="nascimento" name="nascimento"  placeholder=" Nascimento" required>
+                    <input type="RG" id="RG" name="RG" placeholder=" RG" required>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="telaCad">
+        <div class="efetuarCad">
+            <h2>Informações da saúde</h2>
+            <div class="gridding">
+                <div class="part1">
+                    <input type="altura" id="altura" name="altura" placeholder="Altura (cm)" required>
+                    <input type="alergia" id="alergia" name="alergia" placeholder="Alergia (se possuir)">
+                </div>
+
+                <div class="part2">
+                    <input type="peso" id="peso" name="peso" placeholder="Peso (kg)" required>
+                    <input type="condicao" id="condicao" name="condicao" placeholder="Condição crônica (se possuir)">
+                </div>
+                
+                
+            </div>
+            <label for="sexo" class="labelSexo">
+                <h3>Selecione seu sexo:</h3>
+                <div class="gridding">
+                    <label>
+                        <input type="radio" name="sexo" value="masculino" class="opcaoSexo"> Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="sexo" value="feminino" class="opcaoSexo"> Feminino
+                    </label>
+                </div>
+            </label>
+        </div>
+    </div>
+
+    <div class="telaCad">
+        <div class="efetuarCad">
+            
+            <h2>Endereço</h2>
+            
+            <div class="gridding">
+                <div class="part1">
+                    <input type="CEP" id="CEP" name="CEP" placeholder=" CEP" required>
+                </div>
+
+                <div class="part2"> 
+                    <input type="endereco" id="endereco" name="endereco" placeholder=" Endereço" required>
+                </div>
+            </div>
+                
+
+            <div class="gridding">
+                <div class="part1">
+                    <input type="numero" id="numero"  name="numero" placeholder=" Número" required>
+                </div>
+                <div class="part2">
+                    <input type="complemento" id="complemento" name="complemento" placeholder=" Complemento (se possuir)">
+                </div>
+            </div>
+                    
+            
+
+            <a href="./usuario.html" class="buttom">Concluir cadastro</a>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <nav class="linksRapidos">
+            <p>Links rápidos:</p>
+            <ul class="links">
+                <li class="link"><a href="./suporte.html">Suporte</a></li>
+                <li class="link"><a href="./quemSomos.html">Quem somos</a></li>
+            </ul>
+        </nav>
+
+        <div class="shield">
+            <ul class="grupo">
+                <li class="integrante">Marcos Henrique Garrido da Silva</li>
+                <li class="integrante">Izabelly de Oliveira Menezes</li>
+                <li class="integrante">João Vito Santiago da Silva</li>
+                <li class="integrante">Gustavo Imparto Chaves</li>
+                <li class="integrante">Lucas Monte Verde</li>
+            </ul>
+            <img src="./images/VitalidadeLogo.png" height="160px" width="160px">
+        </div>
+    </footer>
+</body>
+</html>

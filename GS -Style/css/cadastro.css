@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+header{
+    box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.5)
+}
+
+.telaCad {
+    width: 640px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 0 15px -5px rgba(0, 0, 0, 0.5), -10px 0 15px -5px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    background-color: #ffffff;
+    color: #454545;
+    border: 2px solid sandybrown;
+    font-weight: bolder;
+    align-items: center;
+
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid sandybrown;
+    box-shadow: inset 3px 3px 15px rgba(0, 0, 0, 0.2), inset -3px -3px 15px rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.gridding {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.telaCad h1{
+    margin-bottom: 10px;
+}
+.telaCad h2{
+    margin-left: 15px;
+}
+
+.buttom{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(161, 107, 59);
+    border: 0;
+    box-shadow: 5px 5px 12px -5px rgba(0, 0, 0, 0.5), -5px -5px 12px -5px rgba(0, 0, 0, 0.5);
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+}
+
+.labelSexo h3{
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+.opcaoSexo {
+   
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 4px solid sandybrown;
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.0), inset 0px 0px 0px rgba(0, 0, 0, 0.0);
+    margin: 8px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.labelSexo .gridding{
+    font-size: 18px;
+}
+.cadDepend{
+    font-size: 44px;
+}
+
+
+/*Reponsivdade para celular*/
+@media screen and (max-width: 640px) {
+    .telaCad {
+        padding: auto;
+        width: 95%;
+        height: 100%;
+        grid-template-columns: 1fr
+        
+    }
+    .gridding {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .telaCad img{
+        width: 100px;
+        height: 100px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+}
